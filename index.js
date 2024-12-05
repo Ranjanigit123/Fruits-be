@@ -6,14 +6,24 @@ const cors = require("cors");
 
 const app = express();
 app.use(express.json());
-app.use(cors());
+//app.use(cors());
+app.use(cors({
+  origin: "https://ranjanifruitsandvegetables.netlify.app/",
+  methods: "GET,POST,PUT,DELETE",
+}));
 
 // Connect to MongoDB
 const MONGO_URL = `mongodb+srv://ranjanirithu206:KS0pwc1jwcIxmZu0@cluster0.8mgcr.mongodb.net/MEAN?retryWrites=true&w=majority`;
 
-mongoose
-  .connect(MONGO_URL)
-  .then(() => {
+//mongoose
+ // .connect(MONGO_URL)
+  mongoose.connect(MONGO_URL, {
+
+    //mongoose.connect("mongodb://localhost:27017/real_estate", {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+    }).then(() => {
+  //.then(() => {
     console.log("Connected to MongoDB");
     seedProductsData();
   })
