@@ -50,7 +50,7 @@ async function seedProductsData() {
       description: "Fresh and crispy",
       price: 150,
       image:
-        "https://media.geeksforgeeks.org/wp-content/uploads/20240104142542/apple.jpg",
+        "apple.jpg",
     },
     {
       name: "Banana",
@@ -58,7 +58,7 @@ async function seedProductsData() {
       description: "Rich in potassium",
       price: 75,
       image:
-        "https://media.geeksforgeeks.org/wp-content/uploads/20240104142554/banana.jpg",
+        "C:\Fruits & Vegetables Market\server\assets\apple.jpg",
     },
     {
       name: "Orange",
@@ -66,7 +66,7 @@ async function seedProductsData() {
       description: "Packed with vitamin C",
       price: 200,
       image:
-        "https://media.geeksforgeeks.org/wp-content/uploads/20240104142641/orange.jpg",
+        "apple.jpg",
     },
     {
       name: "Carrot",
@@ -74,7 +74,7 @@ async function seedProductsData() {
       description: "Healthy and crunchy",
       price: 100,
       image:
-        "https://media.geeksforgeeks.org/wp-content/uploads/20240104142613/carrot.jpg",
+        "apple.jpg",
     },
     {
       name: "Broccoli",
@@ -82,7 +82,7 @@ async function seedProductsData() {
       description: "Nutrient-rich greens",
       price: 175,
       image:
-        "https://media.geeksforgeeks.org/wp-content/uploads/20240104142601/brocoli.jpg",
+        "apple.jpg",
     },
     {
       name: "Grapes",
@@ -90,7 +90,7 @@ async function seedProductsData() {
       description: "Sweet and juicy",
       price: 250,
       image:
-        "https://media.geeksforgeeks.org/wp-content/uploads/20240104142629/grapes.jpg",
+        "apple.jpg",
     },
     {
       name: "Strawberry",
@@ -98,7 +98,7 @@ async function seedProductsData() {
       description: "Delicious red berries",
       price: 300,
       image:
-        "https://media.geeksforgeeks.org/wp-content/uploads/20240104142657/strawberry.jpg",
+        "apple.jpg",
     },
     {
       name: "Lettuce",
@@ -106,7 +106,7 @@ async function seedProductsData() {
       description: "Crisp and fresh",
       price: 120,
       image:
-        "https://media.geeksforgeeks.org/wp-content/uploads/20240104142635/lettue.jpg",
+        "apple.jpg",
     },
     {
       name: "Tomato",
@@ -114,7 +114,7 @@ async function seedProductsData() {
       description: "Versatile and flavorful",
       price: 180,
       image:
-        "https://media.geeksforgeeks.org/wp-content/uploads/20240104142704/tomato.jpg",
+        "apple.jpg",
     },
     {
       name: "Cucumber",
@@ -122,7 +122,7 @@ async function seedProductsData() {
       description: "Cool and hydrating",
       price: 130,
       image:
-        "https://media.geeksforgeeks.org/wp-content/uploads/20240104142621/cocumber.jpg",
+        "apple.jpg",
     },
   ];
 
