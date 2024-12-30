@@ -50,7 +50,7 @@ async function seedProductsData() {
       description: "Fresh and crispy",
       price: 150,
       image:
-        "apple.jpg",
+        "https://media.istockphoto.com/id/184276818/photo/red-apple.jpg?s=612x612&w=0&k=20&c=NvO-bLsG0DJ_7Ii8SSVoKLurzjmV0Qi4eGfn6nW3l5w=",
     },
     {
       name: "Banana",
@@ -66,7 +66,7 @@ async function seedProductsData() {
       description: "Packed with vitamin C",
       price: 200,
       image:
-        "apple.jpg",
+        "https://media.istockphoto.com/id/184276818/photo/red-apple.jpg?s=612x612&w=0&k=20&c=NvO-bLsG0DJ_7Ii8SSVoKLurzjmV0Qi4eGfn6nW3l5w=",
     },
     {
       name: "Carrot",
